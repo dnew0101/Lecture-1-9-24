@@ -6,7 +6,7 @@ public class PrintNull {
 
         for (int i = 0; i < words.length; i++) {
             if (words[i] != null) {
-                System.out.println([i]);
+                System.out.println(words[i]);;
                 words[i] = words[i].toUpperCase();
             }
         }
