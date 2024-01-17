@@ -19,10 +19,10 @@ public class Point {
 
 
         // alternative distanceFromOrigin that uses distance
-    public double distanceFromOrigin() {
-        Point origin = new Point();
-        return distance(origin);
-        }
+    // public double distanceFromOrigin() {
+    //     Point origin = new Point();
+    //     return distance(origin);
+    //     }
 
 
 //  public void translate(int dx, int dy) {
@@ -31,7 +31,11 @@ public class Point {
     // }
 
     //Alternatively, translate() could also be written this way
-    public void translate(int dx, int dy) {
-        setLocation(x + dx, y + dy);
+    // public void translate(int dx, int dy) {
+    //     setLocation(x + dx, y + dy);
+    // }
+    public Point(int initialX, int initialY) {
+        x = initialX;
+        y = initialY;
     }
 }
